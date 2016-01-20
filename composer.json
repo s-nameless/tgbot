@@ -1,0 +1,26 @@
+{
+    "name": "nameless/tgbot",
+    "description": "Simple php library for telegram bot development",
+    "keywords": ["telegram", "bot"],
+    "authors": [
+        {
+            "name": "kolar",
+            "homepage": "https://github.com/kolar/telegram-poll-bot"
+        },
+        {
+            "name": "nameless",
+            "homepage": "https://github.com/s-nameless"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "psr/log": "^1",
+        "lib-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tgbot\\": "src/"
+        }
+    },
+    "target-dir" : "nameless/tgbot"
+}
