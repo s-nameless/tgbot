@@ -1,0 +1,18 @@
+
+# Created by https://www.gitignore.io/api/netbeans
+
+### NetBeans ###
+nbproject/
+
+*.log
+*.orig
+*.bak
+*.old
+!.gitkeep
+
+
+### Composer ###
+composer.phar
+/vendor/
+
+
